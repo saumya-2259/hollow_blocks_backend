@@ -16,7 +16,7 @@ con.on('open',function()
 })
 
 app.use(express.json())
-const alienrouter=require('./router/Alien')
+const alienrouter=require('./router/alien')
 app.use(alienrouter)
 app.listen(9000,()=>
 {
